@@ -2,14 +2,17 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './Header'
+import ExpenseForm from './ExpenseForm'
+import ExpenseTable from './ExpenseTable'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <h1>Expense tracker</h1>
-    </>
-  )
-}
+      <Header/>
+      <ExpenseForm/>    
+      </>
+      )}
 export default App

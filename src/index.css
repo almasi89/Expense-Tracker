@@ -1,0 +1,40 @@
+
+.mm{
+ 
+}
+
+thead{
+background:black;
+color: white;
+  
+} td,th{
+  padding: 16px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+} 
+.form-card{
+  background: #ece9e9;
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 4px 10px rgba(red, green, blue, alpha);
+}
+.form-card input{
+  width: 100%;
+  padding: 10px;
+  margin: 4px;
+  border: 1px solid red;
+  border-radius: 6px;
+}
+h1{
+  color: red;
+}
